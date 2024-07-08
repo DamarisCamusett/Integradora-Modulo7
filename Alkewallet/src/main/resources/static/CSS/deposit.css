@@ -8,8 +8,6 @@
 }
 
 body{
-  background-image: url('/img/background.jpeg');
-  background-repeat: no-repeat;
   background-position: center;
   background-size: 100%;
   display: flex;
@@ -97,10 +95,6 @@ input::-webkit-inner-spin-button {
   margin: 0;
 }
 
-/* Firefox */
-input[type=number] {
-  -moz-appearance: textfield;
-}
 
 #formattedAmount {
   display: block;

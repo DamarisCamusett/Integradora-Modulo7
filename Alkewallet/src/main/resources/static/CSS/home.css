@@ -8,8 +8,6 @@
 }
 
 body{
-  background-image: url('/img/background.jpeg');
-  background-repeat: no-repeat;
   background-position: center;
   background-size: 100%;
   display: flex;
@@ -100,13 +98,13 @@ header a i{
 }
 
 .navigation {
-  position: fixed; /* Make the navigation menu fixed */
-  top: 0; /* Position it at the top of the viewport */
-  left: 0; /* Position it at the left edge of the viewport */
-  width: 100%; /* Make it span the entire width of the viewport */
-  z-index: 100; /* Ensure it appears above other elements */
-  background-color: #333; /* Set a background color */
-  padding: 10px 0; /* Add some padding */
+  position: fixed; 
+  top: 0; 
+  left: 0; 
+  width: 100%;
+  z-index: 100; 
+  background-color: #333; 
+  padding: 10px 0;
 }
 
 @media screen and (max-width: 600px) {
